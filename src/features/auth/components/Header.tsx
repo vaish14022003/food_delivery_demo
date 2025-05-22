@@ -1,4 +1,6 @@
 // src/components/Header.tsx
+
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import type { RootState } from "../../../store";
 import { logout } from "../../../store/slices/authSlice";

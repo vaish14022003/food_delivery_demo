@@ -1,3 +1,5 @@
+import React from "react"
+
 const getStatusColor = (status: string) => {
     switch (status) {
       case 'Delivered':

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { orderHistory as mockOrderData } from "./mockOrderHistory";
 // import { Link } from "react-router-dom";
+import React from "react";
 
 type OrderItem = {
   name: string;

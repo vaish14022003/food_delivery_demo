@@ -19,7 +19,7 @@
 // };
 
 // export default AppRoutes;
-
+import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppLayout from "../layouts/AppLayout";
 import OrderPlacementPage from "../features/customer/orderPlacement/OrderPlacementPage";
